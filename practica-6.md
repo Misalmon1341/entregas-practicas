@@ -23,3 +23,9 @@ Introduccion a Photoshop, pricipios del diseño grafico, leguaje connotativo y d
 Ludología y modelos de juego para planificar y organizar un juego, retroalimentacion del juego de moviles.
 
 ![Proyecto Semestral](/app-moviles.png)
+
+### Lenguajes Interpretados 
+#### Jonathan Miranda
+Documentacion front con lenguaje markdown y uso de git en terminal.
+
+![Lenguajes Interpretados](/LenguajeInterpretado.jpg)
