@@ -17,3 +17,9 @@ Documento de diseño de los juegos, cuestiones narrativas de una historia y unit
 Introduccion a Photoshop, pricipios del diseño grafico, leguaje connotativo y denotativo.
 
 ![Principios de Composicion y diseño](/diseno-grafico-creativo-pixel-ar.jpg)
+
+### Proyecto Semestral
+#### Fernando Garcia
+Ludología y modelos de juego para planificar y organizar un juego, retroalimentacion del juego de moviles.
+
+![Proyecto Semestral](/app-moviles.png)
