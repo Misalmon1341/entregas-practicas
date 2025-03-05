@@ -11,3 +11,6 @@ Enlace a repositorio de la practica 2:
 
 Enlace a practica 5:
 - [Practica-5](./practica-5.md)
+
+Enlace a practica 6:
+- [Practica-6](./practica-6.md)
