@@ -29,3 +29,9 @@ Ludología y modelos de juego para planificar y organizar un juego, retroaliment
 Documentacion front con lenguaje markdown y uso de git en terminal.
 
 ![Lenguajes Interpretados](/LenguajeInterpretado.jpg)
+
+### Ingles B2
+#### Alina Sidorova
+Ingles avanzado con conceptos y gramatica mas adaptada a la vida profesional.
+
+![Ingles B2](/Ingles.jpg)
