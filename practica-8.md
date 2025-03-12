@@ -84,3 +84,8 @@ Author: Misael Bautista <misagamer559@gmail.com>
 ```
 ### 10. ¿Cuál es el propósito de una etiqueta? 
 Poder crear diferentes versiones de nuestro proyecto.
+```bash
+  $ git tag v2.1.1
+  $ git push --tags
+Enumerating objects: 8, done.
+```

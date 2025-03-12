@@ -17,3 +17,6 @@ Enlace a practica 6:
 
 Enlace a practica 7;
 - [Practica-7](./practica-7.md)
+
+Enlace a practica 8;
+- [Practica-8](./practica-8.md)
