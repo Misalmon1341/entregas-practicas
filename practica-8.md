@@ -47,3 +47,4 @@ $ git branch
 ```
 ### 7. ¿Qué es una fusión? 
 Es la forma en la que unimos el trabajo de una rama a otra. 
+....
