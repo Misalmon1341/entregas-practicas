@@ -47,4 +47,40 @@ $ git branch
 ```
 ### 7. ¿Qué es una fusión? 
 Es la forma en la que unimos el trabajo de una rama a otra. 
-....
+```bash
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge Pruebas-Practica-8
+Updating 04bbc69..8ab66b3
+```
+### 8. Explica los diferentes tipos de fusión que existen.
+La fusion automatica con el comando merge pero cuando por cuestiones de errores se tiene que hacer manual.
+
+### 9. ¿Cómo puedes ver el historial de tu repositorio? 
+Con el comando git log nos permite ver los commit, el autor y la fecha de cada uno.
+```bash
+$ git log
+commit 8ab66b30e5ae5f5ca50d658c1294a6f1dd5665f3 (HEAD -> main, Pruebas-Practica-8)
+Author: Misael <misagamer559.gmail.com>
+Date:   Wed Mar 12 12:51:26 2025 -0600
+
+    Cambios en la rama de prueba
+
+commit 04bbc69f496392ca3fa313c93bedc920f4b4d754
+Author: Misael <misagamer559.gmail.com>
+Date:   Wed Mar 12 12:50:00 2025 -0600
+
+    Cambios de prueba
+
+commit f33b04b85175e37766c2ef52339797b307dfa87e (origin/main)
+Author: Misael <misagamer559.gmail.com>
+Date:   Wed Mar 12 12:25:12 2025 -0600
+
+    Ejemplo de commit practica 8
+
+commit 6d1578fcfb93e23d67a12ee71c98372f241d4208
+Author: Misael Bautista <misagamer559@gmail.com>
+```
+### 10. ¿Cuál es el propósito de una etiqueta? 
+Poder crear diferentes versiones de nuestro proyecto.
