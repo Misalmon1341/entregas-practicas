@@ -18,3 +18,32 @@ error: remote origin already exists.
 ```
 ### 4. ¿Cuál es el flujo básico de trabajo en Git y GitHub? 
 Primero agregamos los cambios al stage, depues esos cambois los agragmos al repositorio local y por ultimo subimos los cambios al remoto.
+```bash
+$ git add .
+$ git commit -m "Ejemplo de commit practica 8"
+[main f33b04b] Ejemplo de commit practica 8
+$ git push
+Enumerating objects: 6, done.
+```
+### 5. ¿Para qué sirve el archivo .gitignore? 
+Para esconder los archivos que no queremos mostrar en el repositorio remoto, simplemente colocamos el nombre del archivo en el archivo gitinore.
+```gitignore
+hola.txt
+*.exe
+pruebas
+image-1.png
+```
+### 6. ¿Cuál es el propósito de una rama?
+Es un espacio de trabajo diferente donde se pueden trabajar diferentes cosas sin interrumpir el trabajo principaly despues ir uniendo los cambios.
+```bash
+$ git branch
+  Diseño-Videojuegos
+  Ingles-B2
+  Lenguajes-Interpretados
+  Principios-Composicion-Diseño
+  Proyecto-Semestral
+  Sistemas-Operativos
+* main
+```
+### 7. ¿Qué es una fusión? 
+Es la forma en la que unimos el trabajo de una rama a otra. 
