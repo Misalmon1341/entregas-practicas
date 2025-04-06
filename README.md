@@ -15,8 +15,11 @@ Enlace a practica 5:
 Enlace a practica 6:
 - [Practica-6](./practica-6.md)
 
-Enlace a practica 7;
+Enlace a practica 7_
 - [Practica-7](./practica-7.md)
 
 Enlace a practica 8;
 - [Practica-8](./practica-8.md)
+
+Enlace a documento de video-juego:
+- [video-juego](./video-juego.md)
