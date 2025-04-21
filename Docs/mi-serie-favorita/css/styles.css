@@ -1,0 +1,63 @@
+
+:root{
+--color-primary: red;
+--color-special: rgba(241, 98, 31, 0.863);
+--font-primary: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 100%; ;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+a {
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}
+img{
+    max-width: 100%;
+}
+
+
+#titulo-prin {
+font-family: var(--font-primary);
+color: var(--color-primary);
+background-color: var(--color-special);
+font-size: 2rem;
+}
+
+#inicio {
+    background-color:var(--color-special);
+    color:blueviolet;
+}
+#rey-pirata {
+    color: var(--color-primary);
+    background-color: burlywood;
+}
+
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-yellow {
+    color: yellow;
+}
+.acerca h2{
+ color: yellowgreen;
+}
+.acerca li:first-child {
+    background-color: blue;
+}
+.acerca li:last-child {
+    background-color: blueviolet;
+}

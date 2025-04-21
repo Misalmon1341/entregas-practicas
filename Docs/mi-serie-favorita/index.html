@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title>One Piece </title>
+    <title>One Piece Info</title>
     <meta name="One Piece Info" content="Este es un pequeño vlog con datos acerca de One piece especialmente hecho para personas nuevas en la serie.">
     <link rel="icon" href="img/favicon.webp">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>One piece Info</h1>
+
+        <h1 id="titulo-prin" class ="text-center" class ="text-yellow">One piece</h1>
         <img src="img/header-one-piece.jpg" alt="Portada de One Piece">
         <nav> 
             <a href="#inicio">Inicio</a>
@@ -22,11 +23,11 @@
     </header>
      <main>
         <section id="inicio">
-        <h2><i><b>El rey de los piratas</b></i></h2>
+        <h2 id="rey-pirata"><i><b>El rey de los piratas</b></i></h2>
         <img src="img/op-poster.jpg" alt="Poster de One piece">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JkS3d439tcM?si=awT5hE8RvfRCy53q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <section id="acerca">
+        <section id="acerca" class="acerca">
             <h2><b>Acerca de:</b></h2>
             <ul>
             <li>Fecha de estreno: 1997</li>
@@ -39,7 +40,7 @@
             <h2>Personajes</h2>
             <article>
                 <h3> Monkey D. Luffy</h3>
-                <p>Capitán de los Piratas del Sombrero de Paja, desde niño soñó con convertirse en el Rey de los Piratas,
+                <p class="text-right">Capitán de los Piratas del Sombrero de Paja, desde niño soñó con convertirse en el Rey de los Piratas,
                     inspirado por Shanks un amigo pirata, comió la Gomu Gomu no Mi, que lo convirtió en un hombre de goma. 
                     Luffy es impulsivo, testarudo, pero con una bondad tan grande que cambia la vida de todos los que conoce,
                     Su carisma natural y su capacidad para unir a personas de todos los orígenes lo han llevado a formar una
@@ -48,7 +49,7 @@
             </article>
             <article>
                 <h3>Roronoa Zoro</h3>
-                <p>
+                <p lass="text-right">
                     Es el espadachín de la tripulación, su sueño es convertirse en el mejor espadachín del mundo, para honrar
                     una promesa hecha a su amiga de la infancia. Maneja tres espadas a la vez, usando incluso una en la boca,
                     su determinación es inquebrantable, y es famoso por su sentido del honor y su voluntad de soportar cualquier dolor para proteger 
@@ -58,7 +59,7 @@
             </article>
             <article>
                 <h3>Vinsmoke Sanji</h3>
-                <p>
+                <p class="text-right">
                     El cocinero de los Sombrero de Paja, es un caballero del mar con un código de honor muy particular: jamás golpea a una mujer,
                     sin importar la situación. Fue criado en el Baratie, un restaurante flotante, y más adelante se revela su oscuro pasado como 
                     miembro de la familia Vinsmoke, Sanji es un experto en combate cuerpo a cuerpo, usando sólo sus piernas para no dañar sus manos de cocinero.
@@ -67,13 +68,13 @@
             </article>
             <article>
                 <h3>Nami</h3>
-                <p> La navegante del grupo, comenzó su viaje como una ladrona de piratas con un pasado lleno de dolor, hasta que fue liberada por Luffy y se unió
+                <p class="text-right"> La navegante del grupo, comenzó su viaje como una ladrona de piratas con un pasado lleno de dolor, hasta que fue liberada por Luffy y se unió
                     a su causa. Su inteligencia táctica, habilidad para leer el clima y trazar rutas seguras hacen que sea una pieza clave para navegar por el Grand Line.</p>
                 <img src="img/nami.jpg" alt="Imagen de Nami">
             </article>
             <article>
                 <h3>Chopper</h3>
-                <p>
+                <p class="text-right">
                     Es el médico de la tripulación, un reno que comió la Hito Hito no Mi y adquirió forma y conciencia humanas, rechazado tanto por humanos como por otros renos,
                     Chopper encontró su lugar con los Sombrero de Paja. Es dulce, curioso y extremadamente empático, con un corazón enorme. Gracias a sus conocimientos médicos 
                     y sus transformaciones, Chopper es capaz de ayudar en batalla y salvar vidas. 
@@ -82,13 +83,13 @@
             </article>
             <article>
                 <h3>Shanks</h3>
-                <p> Es uno de los piratas más respetados del mundo, no sólo por su poder, sino por su carácter equilibrado y su increíble dominio del Haki. Fue miembro de la tripulación
+                <p class="text-right"> Es uno de los piratas más respetados del mundo, no sólo por su poder, sino por su carácter equilibrado y su increíble dominio del Haki. Fue miembro de la tripulación
                     del Rey de los Piratas, Gol D. Roger, y es la figura que inspiró a Luffy a hacerse pirata, dándole su iconico sombrero de paja.</p>
                     <img src="img/shanks.jpg" alt="Imagen de shanks">
             </article>
             <article>
                 <h3>Marshall D. Teach</h3>
-                <p>
+                <p class="text-right">
                     Antagonista pricipal y emperador del mar, durante años ocultó sus verdaderas intenciones dentro de la tripulación de Barbablanca, hasta que obtuvo
                     la Fruta del Diablo Yami Yami no Mi, que le permite controlar la oscuridad y anular los poderes de otros, tambien busca el one piece.
                 </p>
@@ -96,7 +97,7 @@
             </article>
             <article>
                 <h3>Monkey D. Garp</h3>
-                <p>
+                <p class="text-right">
                     Es un legendario héroe de la Marina y abuelo de Luffy, Garp nunca consumió una Fruta del Diablo, confiando 
                     completamente en su descomunal fuerza física y su maestría en Haki. Es conocido por haber enfrentado a Gol D. Roger en múltiples ocasiones, y aunque 
                     representa la justicia, tiene una naturaleza rebelde y alegre que lo hace entrañable.
@@ -105,7 +106,7 @@
             </article>
             <article>
                 <h3>Akainu</h3>
-                <p>
+                <p class="text-right">
                     Actual Gran Almirante de la Marina y el representante extremo de la “justicia absoluta”. Posee la Fruta del Diablo Magu Magu no Mi, que le otorga la 
                     capacidad de generar y controlar lava. Su personalidad es brutal y sin compasión, dispuesto a eliminar incluso a civiles si considera que eso mantiene el orden. 
                 </p>
@@ -113,7 +114,7 @@
             </article>
             <article>
                 <h3> Gol D. Roger</h3>
-                <p> Conocido como el Rey de los Piratas, es la figura legendaria que dio inicio a toda la era pirata en One Piece. Fue el único hombre que logró conquistar el Grand 
+                <p class="text-right"> Conocido como el Rey de los Piratas, es la figura legendaria que dio inicio a toda la era pirata en One Piece. Fue el único hombre que logró conquistar el Grand 
                     Line por completo y descubrir el misterioso tesoro conocido como el One Piece, escondido en la isla final, Laugh Tale. Roger era carismático, impulsivo y poseía
                     un espíritu aventurero sin igual, no buscaba la conquista ni la opresión, sino la libertad absoluta.</p>
             </article>
