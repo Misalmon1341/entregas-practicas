@@ -23,3 +23,6 @@ Enlace a practica 8;
 
 Enlace a documento de video-juego:
 - [video-juego](./video-juego.md)
+
+Enlace a codigo html:
+-[Documento-serie](./docs/mi-serie-favorita/index.html)
