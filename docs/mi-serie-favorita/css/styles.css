@@ -20,7 +20,7 @@ a {
     color: blue;
 }
 a:hover{
-    color: blueviolet;
+    color: rgb(127, 34, 214);
 }
 img{
     max-width: 100%;
@@ -60,4 +60,61 @@ font-size: 2rem;
 }
 .acerca li:last-child {
     background-color: blueviolet;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .grid-personajes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-personajes article {
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 15px;
+}
+.grid-nav {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; 
+    justify-items: center; 
+    padding: 15px;
+}
+.grid-footer{
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+    grid-template-columns: repeat(1,1fr);
+}
+.grid-galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: cornsilk;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-galeria img{
+    border-radius: 5px;
+}
+.grid-iframe{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    padding: 20px;
+}
+@media screen and (max-width: 768px) 
+{
+    .grid-personajes{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-galeria{
+        grid-template-columns: 1fr;
+    }
 }
